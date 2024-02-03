@@ -1,13 +1,18 @@
 {
     "manifest_version": 3,
     "name": "currency_converter",
-    "version": "2.0.0",
+    "version": "1.0.1",
     "description": "Simple extension to convert currency quickly",
     "action": {
         "default_popup": "index.html",
-        "default_icon": "icon.png"
+        "default_icon": {
+            "16": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
     },
     "host_permissions": [
         "https://api.api-ninjas.com/"
     ]
 }
+
